@@ -1,5 +1,36 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
 }
+
+
+.bg-body {
+    width: 21rem;
+}
+
+.number {
+    height: 25rem;
+    padding-top: 7rem;
+    font-size: 10rem;
+    margin-right: 4rem;
+} 
+
+.float-start, .float-end {
+    font-size: 8rem;
+    margin-top: -3rem;
+}
+
+.float-end {
+transform: scaleY(-1);
+margin-bottom: -3rem;
+}
+
+.inverted {
+    transform: scaleY(-1);
+    margin-right: -3rem;
+    margin-top: -6rem;
+    }
+
+img {width: 12rem;}
+
