@@ -89,6 +89,7 @@ if(rndInt === 1 &&  suit === 4){
 if(rndInt === 10){
     number.style.marginLeft = "3rem";
     number.style.marginTop = "2rem";
+    number.innerHTML += rndInt; 
    }
 
 if(rndInt === 11){
@@ -123,7 +124,7 @@ if(rndInt === 13){
     inverted.style.marginTop = "-20rem";
 }
 
-if (rndInt == 2 || rndInt == 3 || rndInt == 4 || rndInt == 5 || rndInt == 6 || rndInt == 7 || rndInt == 8) { number.innerHTML += rndInt; }
+if (rndInt == 2 || rndInt == 3 || rndInt == 4 || rndInt == 5 || rndInt == 6 || rndInt == 7 || rndInt == 8 || rndInt == 9) { number.innerHTML += rndInt; }
 
 
 }
