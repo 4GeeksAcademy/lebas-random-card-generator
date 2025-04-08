@@ -11,19 +11,21 @@ body{
 
 .number {
     height: 25rem;
-    padding-top: 7rem;
+    padding-top: 8rem;
     font-size: 10rem;
-    margin-right: 4rem;
+    margin-right: 6rem;
 } 
 
 .float-start, .float-end {
     font-size: 8rem;
-    margin-top: -3rem;
+    margin-top: -2rem;
+    margin-left: 1rem;
 }
 
 .float-end {
 transform: scaleY(-1);
-margin-bottom: -3rem;
+margin-bottom: -2rem;
+margin-right: 1rem;
 }
 
 .inverted {

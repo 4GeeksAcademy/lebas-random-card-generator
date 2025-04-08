@@ -62,28 +62,32 @@ console.log(rndInt)
 
 if(rndInt === 1 &&  suit === 1) {
         number.innerHTML += `♠`;
-        number.style.paddingTop = "3rem";
+        number.style.paddingTop = "4rem";
         number.style.fontSize = "14rem";
+        number.style.marginRight = "5rem";
 }
 
 if(rndInt === 1 &&  suit == 2){
      number.innerHTML += `♣`
-     number.style.paddingTop = "3rem";
+     number.style.paddingTop = "4rem";
      number.style.fontSize = "14rem";
+     number.style.marginRight = "5rem";
 }
 
 if(rndInt === 1 &&  suit == 3){
         number.innerHTML += `♥`;
     number.style.color = "red";
-    number.style.paddingTop = "3rem";
+    number.style.paddingTop = "4rem";
     number.style.fontSize = "14rem";
+    number.style.marginRight = "5rem";
 }
 
 if(rndInt === 1 &&  suit === 4){
     number.innerHTML += `♦`
     number.style.color = "red";
-    number.style.paddingTop = "3rem";
+    number.style.paddingTop = "4rem";
     number.style.fontSize = "14rem";
+    number.style.marginRight = "5rem";
 }
 
 if(rndInt === 10){
@@ -110,6 +114,7 @@ if(rndInt === 12){
     
     let inverted = document.querySelector(".inverted");
     inverted.style.marginTop = "-20rem";
+    inverted.style.marginRight = "-6rem";
 }
 
 if(rndInt === 13){
@@ -118,7 +123,7 @@ if(rndInt === 13){
     
     let normal = document.querySelector(".normal");
     normal.style.marginTop = "-14rem";
-    normal.style.marginLeft= "-3rem";
+    normal.style.marginRight= "-3.5rem";
 
     let inverted = document.querySelector(".inverted");
     inverted.style.marginTop = "-20rem";
