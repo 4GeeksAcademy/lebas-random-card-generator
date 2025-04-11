@@ -64,14 +64,13 @@ if(rndInt === 1 &&  suit === 1) {
         number.innerHTML += `♠`;
         number.style.paddingTop = "4rem";
         number.style.fontSize = "14rem";
-        number.style.marginRight = "5rem";
 }
 
 if(rndInt === 1 &&  suit == 2){
      number.innerHTML += `♣`
-     number.style.paddingTop = "4rem";
-     number.style.fontSize = "14rem";
-     number.style.marginRight = "5rem";
+     number.style.paddingTop = "5rem";
+     number.style.fontSize = "12rem";
+     
 }
 
 if(rndInt === 1 &&  suit == 3){
@@ -79,7 +78,6 @@ if(rndInt === 1 &&  suit == 3){
     number.style.color = "red";
     number.style.paddingTop = "4rem";
     number.style.fontSize = "14rem";
-    number.style.marginRight = "5rem";
 }
 
 if(rndInt === 1 &&  suit === 4){
@@ -87,46 +85,30 @@ if(rndInt === 1 &&  suit === 4){
     number.style.color = "red";
     number.style.paddingTop = "4rem";
     number.style.fontSize = "14rem";
-    number.style.marginRight = "5rem";
 }
 
 if(rndInt === 10){
-    number.style.marginLeft = "3rem";
-    number.style.marginTop = "2rem";
-    number.innerHTML += rndInt; 
+    number.style.marginRight = "1rem";
+    number.style.paddingTop = "10rem";
+    number.innerHTML += `10`; 
+    number.style.fontSize = "8rem";
    }
 
 if(rndInt === 11){
-    number.innerHTML += `<img src="assets/img/jester.gif">`
-    let jester = document.querySelector("img");
-    jester.style.marginTop = "-3rem";
-    jester.style.marginLeft = "4.5rem";
-    
+    number.innerHTML += `J`
+   
 }
 
 if(rndInt === 12){
-    number.innerHTML += `<img src="assets/img/queen.gif" class="normal">
-    <img src="assets/img/queen.gif" class="inverted">`
+    number.innerHTML += `Q`
 
-    let normal = document.querySelector(".normal");
-    normal.style.marginTop = "-13rem";
-    normal.style.marginLeft= "4rem";
+
     
-    let inverted = document.querySelector(".inverted");
-    inverted.style.marginTop = "-20rem";
-    inverted.style.marginRight = "-6rem";
 }
 
 if(rndInt === 13){
-    number.innerHTML += `<img src="assets/img/king.gif" class="normal">
-    <img src="assets/img/king.gif" class="inverted">`
+    number.innerHTML += `K`
     
-    let normal = document.querySelector(".normal");
-    normal.style.marginTop = "-14rem";
-    normal.style.marginRight= "-3.5rem";
-
-    let inverted = document.querySelector(".inverted");
-    inverted.style.marginTop = "-20rem";
 }
 
 if (rndInt == 2 || rndInt == 3 || rndInt == 4 || rndInt == 5 || rndInt == 6 || rndInt == 7 || rndInt == 8 || rndInt == 9) { number.innerHTML += rndInt; }
