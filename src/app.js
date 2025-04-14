@@ -88,8 +88,7 @@ if(rndInt === 1 &&  suit === 4){
 }
 
 if(rndInt === 10){
-    number.style.marginRight = "1rem";
-    number.style.paddingTop = "10rem";
+      number.style.paddingTop = "8rem";
     number.innerHTML += `10`; 
     number.style.fontSize = "8rem";
    }

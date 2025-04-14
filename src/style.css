@@ -7,24 +7,26 @@ body{
 
 .bg-body {
     width: 21rem;
+    display: inline-flex;
 }
 
 .number {
-    height: 25rem;
-    padding-top: 8rem;
+    height: 29rem;
+    padding-top: 7rem;
     font-size: 10rem;
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
+    margin: auto;
 } 
 
 .float-start, .float-end {
     font-size: 8rem;
-    margin-top: -2rem;
-    margin-left: 1rem;
+    margin-top: -3rem;
+    margin-left: 0.5rem;
 }
 
 .float-end {
 transform: scaleY(-1);
-margin-bottom: -2rem;
+margin-bottom: -2rem !important;
 margin-right: 1rem;
 }
 
