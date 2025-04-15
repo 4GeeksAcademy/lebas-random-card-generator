@@ -7,27 +7,23 @@ body{
 
 .bg-body {
     width: 21rem;
-    display: inline-flex;
 }
 
 .number {
-    height: 29rem;
-    padding-top: 7rem;
+    height: 20rem;
+    padding-top: 9rem;
     font-size: 10rem;
-    /* margin-right: 5rem; */
-    margin: auto;
 } 
 
-.float-start, .float-end {
+.float-start {
     font-size: 8rem;
-    margin-top: -3rem;
-    margin-left: 0.5rem;
+    margin-bottom: -10rem;
 }
 
+
 .float-end {
+font-size: 8rem;
 transform: scaleY(-1);
-margin-bottom: -2rem !important;
-margin-right: 1rem;
 }
 
 .inverted {
@@ -37,4 +33,3 @@ margin-right: 1rem;
     }
 
 img {width: 12rem;}
-

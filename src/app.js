@@ -62,13 +62,13 @@ console.log(rndInt)
 
 if(rndInt === 1 &&  suit === 1) {
         number.innerHTML += `♠`;
-        number.style.paddingTop = "4rem";
-        number.style.fontSize = "14rem";
+        number.style.paddingTop = "8rem";
+        number.style.fontSize = "12rem";
 }
 
 if(rndInt === 1 &&  suit == 2){
      number.innerHTML += `♣`
-     number.style.paddingTop = "5rem";
+     number.style.paddingTop = "8rem";
      number.style.fontSize = "12rem";
      
 }
@@ -76,19 +76,19 @@ if(rndInt === 1 &&  suit == 2){
 if(rndInt === 1 &&  suit == 3){
         number.innerHTML += `♥`;
     number.style.color = "red";
-    number.style.paddingTop = "4rem";
-    number.style.fontSize = "14rem";
+    number.style.paddingTop = "8rem";
+    number.style.fontSize = "12rem";
 }
 
 if(rndInt === 1 &&  suit === 4){
     number.innerHTML += `♦`
     number.style.color = "red";
-    number.style.paddingTop = "4rem";
-    number.style.fontSize = "14rem";
+    number.style.paddingTop = "8rem";
+    number.style.fontSize = "12rem";
 }
 
 if(rndInt === 10){
-      number.style.paddingTop = "8rem";
+      number.style.paddingTop = "10rem";
     number.innerHTML += `10`; 
     number.style.fontSize = "8rem";
    }
