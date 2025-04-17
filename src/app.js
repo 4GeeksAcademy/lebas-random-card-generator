@@ -60,31 +60,8 @@ function randomIntFromInterval(min, max) {
   const rndInt = randomIntFromInterval(1, 13);
 console.log(rndInt) 
 
-if(rndInt === 1 &&  suit === 1) {
-        number.innerHTML += `♠`;
-        number.style.paddingTop = "8rem";
-        number.style.fontSize = "12rem";
-}
-
-if(rndInt === 1 &&  suit == 2){
-     number.innerHTML += `♣`
-     number.style.paddingTop = "8rem";
-     number.style.fontSize = "12rem";
-     
-}
-
-if(rndInt === 1 &&  suit == 3){
-        number.innerHTML += `♥`;
-    number.style.color = "red";
-    number.style.paddingTop = "8rem";
-    number.style.fontSize = "12rem";
-}
-
-if(rndInt === 1 &&  suit === 4){
-    number.innerHTML += `♦`
-    number.style.color = "red";
-    number.style.paddingTop = "8rem";
-    number.style.fontSize = "12rem";
+if(rndInt === 1){
+    number.innerHTML += `A`
 }
 
 if(rndInt === 10){
